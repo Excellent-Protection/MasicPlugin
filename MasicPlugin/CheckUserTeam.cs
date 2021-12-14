@@ -14,8 +14,7 @@ namespace MasicPlugin
     class CheckUserTeam : CodeActivity
     {
         [RequiredArgument]
-
-        [Input("teamId")]
+         [Input("teamId")]
         public InArgument<string> teamId { get; set; }
         [Input("UID")]
         public InArgument<string> UID { get; set; }
